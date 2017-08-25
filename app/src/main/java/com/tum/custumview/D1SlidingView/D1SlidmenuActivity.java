@@ -13,4 +13,7 @@ public class D1SlidmenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_d1_slidmenu);
     }
+
+
+
 }

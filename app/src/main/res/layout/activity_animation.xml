@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tum.custumview.D3ViewAnimation.D3AnimationActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_anmiantion_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_animation_alpha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="alpha"/>
+
+        <Button
+            android:id="@+id/btn_animation_scale"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="scale"/>
+
+        <Button
+            android:id="@+id/btn_animation_rotate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="rotate"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/btn_animation_trans"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="trans"/>
+
+        <Button
+            android:id="@+id/btn_animation_set"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="set"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_animation_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/ll_anmiantion_view"
+        android:layout_centerHorizontal="true"
+        android:text="Hello World!"
+        android:background="@color/colorAccent"/>
+
+</RelativeLayout>
