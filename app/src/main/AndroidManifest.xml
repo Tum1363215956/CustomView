@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".D1SlidingView.D1SlidmenuActivity"></activity>
+        <activity android:name=".D1SlidingView.D1SlidmenuActivity" />
+        <activity android:name=".D2StatusMenu.D2StatusActivity" />
+        <activity android:name=".D3ViewAnimation.D3AnimationActivity"></activity>
     </application>
 
 </manifest>
